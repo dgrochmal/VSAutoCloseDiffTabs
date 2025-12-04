@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- This extension has no menu commands - it works automatically -->
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidAutoCloseDiffTabsPackage">
+    <!-- Empty - no commands needed -->
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidAutoCloseDiffTabsPackage" value="{705d396c-b57d-406d-8330-75183fbfa7dc}" />
+  </Symbols>
+</CommandTable>
